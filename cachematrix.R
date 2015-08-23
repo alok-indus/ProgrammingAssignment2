@@ -33,7 +33,7 @@ cacheSolve <- function(x, ...) {
   ## Then returns and stores it in cache. Note the  argument variable  x  is the list of funtions that makeCacheMatrix returns.
   ## Example
   ## cacheFun <- makeCacheMatrix(inputmatrix)  # to get the list of functions in cacheFun.
-  ## cacheSolve(cacheFun)
+  ## Inv <-cacheSolve(cacheFun)
 
   m <- x$getMatInverse()    ## cheking if m  is not NULL. If not NULL then m has inverse, return m            
   if(!is.null(m)){                   
